@@ -1,0 +1,863 @@
+{
+    "description": "kidney and kidney tumor segmentation",
+    "labels": {
+        "0": "background",
+        "1": "Kidney",
+        "2": "Tumor"
+    },
+    "licence": "",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "KiTs",
+    "numTest": 0,
+    "numTraining": 420,
+    "reference": "KiTS data for UENTER",
+    "release": "",
+    "tensorImageSize": "4D",
+    "test": [],
+    "training": [
+        {
+          "image": "case_00148/imaging.nii.gz",
+          "label": "case_00148/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00098/imaging.nii.gz",
+          "label": "case_00098/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00000/imaging.nii.gz",
+          "label": "case_00000/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00092/imaging.nii.gz",
+          "label": "case_00092/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00150/imaging.nii.gz",
+          "label": "case_00150/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00147/imaging.nii.gz",
+          "label": "case_00147/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00037/imaging.nii.gz",
+          "label": "case_00037/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00107/imaging.nii.gz",
+          "label": "case_00107/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00067/imaging.nii.gz",
+          "label": "case_00067/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00187/imaging.nii.gz",
+          "label": "case_00187/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00038/imaging.nii.gz",
+          "label": "case_00038/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00173/imaging.nii.gz",
+          "label": "case_00173/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00154/imaging.nii.gz",
+          "label": "case_00154/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00172/imaging.nii.gz",
+          "label": "case_00172/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00104/imaging.nii.gz",
+          "label": "case_00104/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00051/imaging.nii.gz",
+          "label": "case_00051/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00088/imaging.nii.gz",
+          "label": "case_00088/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00009/imaging.nii.gz",
+          "label": "case_00009/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00178/imaging.nii.gz",
+          "label": "case_00178/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00077/imaging.nii.gz",
+          "label": "case_00077/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00054/imaging.nii.gz",
+          "label": "case_00054/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00078/imaging.nii.gz",
+          "label": "case_00078/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00090/imaging.nii.gz",
+          "label": "case_00090/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00052/imaging.nii.gz",
+          "label": "case_00052/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00062/imaging.nii.gz",
+          "label": "case_00062/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00184/imaging.nii.gz",
+          "label": "case_00184/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00010/imaging.nii.gz",
+          "label": "case_00010/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00134/imaging.nii.gz",
+          "label": "case_00134/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00049/imaging.nii.gz",
+          "label": "case_00049/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00185/imaging.nii.gz",
+          "label": "case_00185/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00060/imaging.nii.gz",
+          "label": "case_00060/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00080/imaging.nii.gz",
+          "label": "case_00080/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00083/imaging.nii.gz",
+          "label": "case_00083/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00156/imaging.nii.gz",
+          "label": "case_00156/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00204/imaging.nii.gz",
+          "label": "case_00204/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00170/imaging.nii.gz",
+          "label": "case_00170/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00115/imaging.nii.gz",
+          "label": "case_00115/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00162/imaging.nii.gz",
+          "label": "case_00162/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00205/imaging.nii.gz",
+          "label": "case_00205/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00019/imaging.nii.gz",
+          "label": "case_00019/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00074/imaging.nii.gz",
+          "label": "case_00074/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00182/imaging.nii.gz",
+          "label": "case_00182/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00024/imaging.nii.gz",
+          "label": "case_00024/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00139/imaging.nii.gz",
+          "label": "case_00139/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00094/imaging.nii.gz",
+          "label": "case_00094/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00005/imaging.nii.gz",
+          "label": "case_00005/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00145/imaging.nii.gz",
+          "label": "case_00145/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00105/imaging.nii.gz",
+          "label": "case_00105/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00130/imaging.nii.gz",
+          "label": "case_00130/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00057/imaging.nii.gz",
+          "label": "case_00057/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00199/imaging.nii.gz",
+          "label": "case_00199/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00188/imaging.nii.gz",
+          "label": "case_00188/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00209/imaging.nii.gz",
+          "label": "case_00209/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00183/imaging.nii.gz",
+          "label": "case_00183/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00013/imaging.nii.gz",
+          "label": "case_00013/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00011/imaging.nii.gz",
+          "label": "case_00011/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00108/imaging.nii.gz",
+          "label": "case_00108/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00047/imaging.nii.gz",
+          "label": "case_00047/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00070/imaging.nii.gz",
+          "label": "case_00070/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00014/imaging.nii.gz",
+          "label": "case_00014/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00152/imaging.nii.gz",
+          "label": "case_00152/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00102/imaging.nii.gz",
+          "label": "case_00102/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00071/imaging.nii.gz",
+          "label": "case_00071/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00039/imaging.nii.gz",
+          "label": "case_00039/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00208/imaging.nii.gz",
+          "label": "case_00208/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00063/imaging.nii.gz",
+          "label": "case_00063/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00106/imaging.nii.gz",
+          "label": "case_00106/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00196/imaging.nii.gz",
+          "label": "case_00196/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00040/imaging.nii.gz",
+          "label": "case_00040/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00138/imaging.nii.gz",
+          "label": "case_00138/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00133/imaging.nii.gz",
+          "label": "case_00133/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00073/imaging.nii.gz",
+          "label": "case_00073/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00151/imaging.nii.gz",
+          "label": "case_00151/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00036/imaging.nii.gz",
+          "label": "case_00036/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00082/imaging.nii.gz",
+          "label": "case_00082/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00103/imaging.nii.gz",
+          "label": "case_00103/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00066/imaging.nii.gz",
+          "label": "case_00066/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00131/imaging.nii.gz",
+          "label": "case_00131/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00155/imaging.nii.gz",
+          "label": "case_00155/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00023/imaging.nii.gz",
+          "label": "case_00023/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00034/imaging.nii.gz",
+          "label": "case_00034/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00085/imaging.nii.gz",
+          "label": "case_00085/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00087/imaging.nii.gz",
+          "label": "case_00087/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00061/imaging.nii.gz",
+          "label": "case_00061/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00100/imaging.nii.gz",
+          "label": "case_00100/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00169/imaging.nii.gz",
+          "label": "case_00169/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00137/imaging.nii.gz",
+          "label": "case_00137/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00068/imaging.nii.gz",
+          "label": "case_00068/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00043/imaging.nii.gz",
+          "label": "case_00043/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00180/imaging.nii.gz",
+          "label": "case_00180/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00189/imaging.nii.gz",
+          "label": "case_00189/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00113/imaging.nii.gz",
+          "label": "case_00113/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00146/imaging.nii.gz",
+          "label": "case_00146/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00021/imaging.nii.gz",
+          "label": "case_00021/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00191/imaging.nii.gz",
+          "label": "case_00191/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00020/imaging.nii.gz",
+          "label": "case_00020/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00142/imaging.nii.gz",
+          "label": "case_00142/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00065/imaging.nii.gz",
+          "label": "case_00065/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00007/imaging.nii.gz",
+          "label": "case_00007/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00126/imaging.nii.gz",
+          "label": "case_00126/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00091/imaging.nii.gz",
+          "label": "case_00091/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00203/imaging.nii.gz",
+          "label": "case_00203/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00028/imaging.nii.gz",
+          "label": "case_00028/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00095/imaging.nii.gz",
+          "label": "case_00095/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00006/imaging.nii.gz",
+          "label": "case_00006/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00055/imaging.nii.gz",
+          "label": "case_00055/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00175/imaging.nii.gz",
+          "label": "case_00175/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00018/imaging.nii.gz",
+          "label": "case_00018/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00202/imaging.nii.gz",
+          "label": "case_00202/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00075/imaging.nii.gz",
+          "label": "case_00075/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00101/imaging.nii.gz",
+          "label": "case_00101/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00056/imaging.nii.gz",
+          "label": "case_00056/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00166/imaging.nii.gz",
+          "label": "case_00166/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00031/imaging.nii.gz",
+          "label": "case_00031/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00041/imaging.nii.gz",
+          "label": "case_00041/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00135/imaging.nii.gz",
+          "label": "case_00135/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00122/imaging.nii.gz",
+          "label": "case_00122/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00042/imaging.nii.gz",
+          "label": "case_00042/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00069/imaging.nii.gz",
+          "label": "case_00069/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00165/imaging.nii.gz",
+          "label": "case_00165/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00136/imaging.nii.gz",
+          "label": "case_00136/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00076/imaging.nii.gz",
+          "label": "case_00076/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00032/imaging.nii.gz",
+          "label": "case_00032/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00128/imaging.nii.gz",
+          "label": "case_00128/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00160/imaging.nii.gz",
+          "label": "case_00160/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00140/imaging.nii.gz",
+          "label": "case_00140/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00174/imaging.nii.gz",
+          "label": "case_00174/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00118/imaging.nii.gz",
+          "label": "case_00118/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00110/imaging.nii.gz",
+          "label": "case_00110/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00197/imaging.nii.gz",
+          "label": "case_00197/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00168/imaging.nii.gz",
+          "label": "case_00168/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00129/imaging.nii.gz",
+          "label": "case_00129/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00207/imaging.nii.gz",
+          "label": "case_00207/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00079/imaging.nii.gz",
+          "label": "case_00079/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00124/imaging.nii.gz",
+          "label": "case_00124/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00046/imaging.nii.gz",
+          "label": "case_00046/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00097/imaging.nii.gz",
+          "label": "case_00097/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00198/imaging.nii.gz",
+          "label": "case_00198/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00048/imaging.nii.gz",
+          "label": "case_00048/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00026/imaging.nii.gz",
+          "label": "case_00026/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00194/imaging.nii.gz",
+          "label": "case_00194/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00163/imaging.nii.gz",
+          "label": "case_00163/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00186/imaging.nii.gz",
+          "label": "case_00186/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00093/imaging.nii.gz",
+          "label": "case_00093/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00161/imaging.nii.gz",
+          "label": "case_00161/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00072/imaging.nii.gz",
+          "label": "case_00072/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00116/imaging.nii.gz",
+          "label": "case_00116/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00111/imaging.nii.gz",
+          "label": "case_00111/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00157/imaging.nii.gz",
+          "label": "case_00157/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00125/imaging.nii.gz",
+          "label": "case_00125/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00179/imaging.nii.gz",
+          "label": "case_00179/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00044/imaging.nii.gz",
+          "label": "case_00044/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00050/imaging.nii.gz",
+          "label": "case_00050/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00001/imaging.nii.gz",
+          "label": "case_00001/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00141/imaging.nii.gz",
+          "label": "case_00141/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00201/imaging.nii.gz",
+          "label": "case_00201/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00064/imaging.nii.gz",
+          "label": "case_00064/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00008/imaging.nii.gz",
+          "label": "case_00008/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00123/imaging.nii.gz",
+          "label": "case_00123/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00120/imaging.nii.gz",
+          "label": "case_00120/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00109/imaging.nii.gz",
+          "label": "case_00109/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00033/imaging.nii.gz",
+          "label": "case_00033/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00119/imaging.nii.gz",
+          "label": "case_00119/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00045/imaging.nii.gz",
+          "label": "case_00045/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00096/imaging.nii.gz",
+          "label": "case_00096/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00058/imaging.nii.gz",
+          "label": "case_00058/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00004/imaging.nii.gz",
+          "label": "case_00004/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00167/imaging.nii.gz",
+          "label": "case_00167/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00193/imaging.nii.gz",
+          "label": "case_00193/segmentation.nii.gz"
+        },
+        {
+          "image": "case_00121/imaging.nii.gz",
+          "label": "case_00121/segmentation.nii.gz"
+        }
+      ],
+    "validation": [
+      {
+        "image": "case_00059/imaging.nii.gz",
+        "label": "case_00059/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00084/imaging.nii.gz",
+        "label": "case_00084/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00016/imaging.nii.gz",
+        "label": "case_00016/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00012/imaging.nii.gz",
+        "label": "case_00012/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00159/imaging.nii.gz",
+        "label": "case_00159/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00002/imaging.nii.gz",
+        "label": "case_00002/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00035/imaging.nii.gz",
+        "label": "case_00035/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00190/imaging.nii.gz",
+        "label": "case_00190/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00053/imaging.nii.gz",
+        "label": "case_00053/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00206/imaging.nii.gz",
+        "label": "case_00206/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00164/imaging.nii.gz",
+        "label": "case_00164/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00081/imaging.nii.gz",
+        "label": "case_00081/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00030/imaging.nii.gz",
+        "label": "case_00030/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00089/imaging.nii.gz",
+        "label": "case_00089/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00176/imaging.nii.gz",
+        "label": "case_00176/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00029/imaging.nii.gz",
+        "label": "case_00029/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00192/imaging.nii.gz",
+        "label": "case_00192/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00017/imaging.nii.gz",
+        "label": "case_00017/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00144/imaging.nii.gz",
+        "label": "case_00144/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00025/imaging.nii.gz",
+        "label": "case_00025/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00022/imaging.nii.gz",
+        "label": "case_00022/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00117/imaging.nii.gz",
+        "label": "case_00117/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00195/imaging.nii.gz",
+        "label": "case_00195/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00127/imaging.nii.gz",
+        "label": "case_00127/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00003/imaging.nii.gz",
+        "label": "case_00003/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00171/imaging.nii.gz",
+        "label": "case_00171/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00149/imaging.nii.gz",
+        "label": "case_00149/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00112/imaging.nii.gz",
+        "label": "case_00112/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00132/imaging.nii.gz",
+        "label": "case_00132/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00158/imaging.nii.gz",
+        "label": "case_00158/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00181/imaging.nii.gz",
+        "label": "case_00181/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00086/imaging.nii.gz",
+        "label": "case_00086/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00177/imaging.nii.gz",
+        "label": "case_00177/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00200/imaging.nii.gz",
+        "label": "case_00200/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00015/imaging.nii.gz",
+        "label": "case_00015/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00114/imaging.nii.gz",
+        "label": "case_00114/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00099/imaging.nii.gz",
+        "label": "case_00099/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00143/imaging.nii.gz",
+        "label": "case_00143/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00027/imaging.nii.gz",
+        "label": "case_00027/segmentation.nii.gz"
+      },
+      {
+        "image": "case_00153/imaging.nii.gz",
+        "label": "case_00153/segmentation.nii.gz"
+      }
+    ]
+}
