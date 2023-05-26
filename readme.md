@@ -3,6 +3,8 @@
 + MONAI框架中提供了UNet、UNetr等网络的实现，只需要直接引入网络进行训练就可以。
 
 > MONAI源码中提供的网络有这些：https://github.com/Project-MONAI/MONAI/tree/7baf2822c4cee81b54585974adde4a51d8040536/monai/networks/nets
+>
+> 建议使用其中的BasicUNet网络，参数少，结构简单，效果好
 
 + **代码参考**：https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/unetr_btcv_segmentation_3d.ipynb
 
