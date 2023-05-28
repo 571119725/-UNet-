@@ -29,3 +29,22 @@
   深度学习资料：[《动手学深度学习》 — 动手学深度学习 2.0.0 documentation (d2l.ai)](https://zh.d2l.ai/)
 
   pytorch：见参考文献中的*《Pytorch官方教程》*
+
+
+
+#### 文件描述
+
++ UNet：原始代码和注释
+
++ BasicUNet：basicUNet代码和相关文件
+
+  > 1. basicunet.py：网络训练代码
+  > 2. check_best_crop.py：使用分割效果最好的图像，展示分割后器官，并保存图像
+  > 3. check_pro_pict.py：查看未分割的图像和标签，展示并保存
+  > 4. find_best_cut.py：找到分割效果最好的图像，展示并保存
+  > 5. plot.py：通过保存的plot_data重新绘制分割准确度和loss值增长图像并保存
+  > 6. read_dir.py：读取数据目录并保存为json文件
+  > 7. result_analysis.py：计算测试集中的多器官分割准确度
+  > 8. dataset：源数据
+  > 9. pictures：图像存储目录
+  > 10. results：训练后模型参数存储目录
