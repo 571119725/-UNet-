@@ -251,7 +251,7 @@ def plot_loss_and_metric():
     x = [eval_num * (i + 1) for i in range(len(epoch_loss_values))]
     y = epoch_loss_values
     plot_data_1 = [x, y]
-    torch.save(plot_data_1, '/root/autodl-tmp/code/2.basic_unet_3/plot_data_1.pth')
+    torch.save(plot_data_1, '/root/autodl-tmp/code/2.basic_unet_3/results/plot_loss.pth')
     plt.xlabel("Iteration")
     plt.plot(plot_data_1[0], plot_data_1[1])
     plt.subplot(1, 2, 2)
@@ -259,7 +259,7 @@ def plot_loss_and_metric():
     x = [eval_num * (i + 1) for i in range(len(metric_values))]
     y = metric_values
     plot_data_2 = [x, y]
-    torch.save(plot_data_2, '/root/autodl-tmp/code/2.basic_unet_3/plot_data_2.pth')
+    torch.save(plot_data_2, '/root/autodl-tmp/code/2.basic_unet_3/results/plot_dice.pth')
     plt.xlabel("Iteration")
     plt.plot(plot_data_2[0],plot_data_2[1])
     plt.show()
