@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 
-data_1 = torch.load('/root/autodl-tmp/code/2.basic_unet_3/plot_data_1.pth')
-data_2 = torch.load('/root/autodl-tmp/code/2.basic_unet_3/plot_data_2.pth')
+data_1 = torch.load('/root/autodl-tmp/code/2.basic_unet_3/results/plot_loss_0.92.pth')
+data_2 = torch.load('/root/autodl-tmp/code/2.basic_unet_3/results/plot_dice_0.92.pth')
 # 生成 x 和 y1、y2 数据
 # x = np.linspace(0, 10, 100)
 x = data_1[0]
